@@ -23,7 +23,7 @@ public class CitationProvider extends ContentProvider {
     private SQLiteDatabase db;
     private static final String AUTHORITY = BuildConfig.APPLICATION_ID;
 
-    ///
+
     public static final String URL = "content://" + AUTHORITY;
     public static final Uri CONTENT_URI = Uri.parse(URL);
     public static final String COMMON_TABLE_PATH="Citation_with_author";
