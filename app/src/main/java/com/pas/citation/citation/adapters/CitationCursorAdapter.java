@@ -19,7 +19,7 @@ import com.pas.citation.citation.database.DatabaseTables;
 public class CitationCursorAdapter extends CursorRecyclerAdapter<CitationCursorAdapter.CitationListRowHolder> {
     private int authorColumnIndex;
     private int citationColumnIndex;
-
+//go
     public CitationCursorAdapter(Cursor cursor) {
         super(cursor);
         setIndexes(cursor);
