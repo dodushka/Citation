@@ -31,7 +31,7 @@ import com.pas.citation.citation.database.CitationProvider;
 import com.pas.citation.citation.database.DatabaseTables;
 
 
-public class MainActivity extends ActionBarActivity
+public class  MainActivity extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks,LoaderManager.LoaderCallbacks<Cursor> {
 
     /**
