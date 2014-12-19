@@ -50,7 +50,7 @@ public class CitationCursorAdapter extends CursorRecyclerAdapter<CitationCursorA
         return mh;
 
     }
-
+///
     @Override
     public Cursor swapCursor(Cursor cursor) {
         setIndexes(cursor);
