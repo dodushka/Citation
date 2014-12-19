@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="3dp">
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:id="@+id/author_icon"
+        android:src="@drawable/coco"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="25dp"
+        app:riv_border_width="2dp"
+        app:riv_border_color="#333333"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Coco"
+        android:id="@+id/author" />
+</LinearLayout>
